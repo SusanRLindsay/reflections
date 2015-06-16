@@ -1,0 +1,13 @@
+GitHub usage lessons #7
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+version control for Android app programs
+
+Learned a lot of messing around trying to produce correct sequence to describe Program (x86) because needed to use "/" before any spaces or parentheses in location.
+
+Learned to rename files in git bash using 'mv' command.
+
+Learned about .bash_profile.
+
+That is because git diff considers the first argument as the "original", and the second argument as the "new" version, so additions are lines present in the second argument but not the first.

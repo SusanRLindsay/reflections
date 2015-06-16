@@ -1,0 +1,9 @@
+GitHub usage lessons #5
+
+How can you use the commands git log and git diff to view the history of files?
+
+git diff commit_1 commit_2 shows changes between commits. 
+
+To get colored diff output, run git config --global color.ui auto
+
+Within Git Bash  it's a good idea to set up QuickEdit mode to make copying and pasting much faster.  To do this, go to Menu->Properties and in the Options tab select QuickEdit Mode. I seem to have to do this each time I run git bash. I get an error message, but it works until next launch.

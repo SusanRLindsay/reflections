@@ -1,0 +1,3 @@
+GitHub usage lessons #1
+
+Use FC in command prompt opened to directory that contains two files to becompared. Use diff for Linux or Mac. Shift-right click opens command prompt here.

@@ -1,0 +1,7 @@
+GitHub usage lessons #6
+
+How might using version control make you more confident to make changes that could break something?
+
+More confidence that you can "roll_back" to a previous working version and using diff as a tool to identify the problem.
+
+Showed how to checkout prior commits using git checkout commit_id#. At this point need to record earlier head commit # since it disappears from log while in mid-checkout. Surprised to find it automatically pulled code to site which is C:/Users/Susan/repo_name

@@ -1,0 +1,5 @@
+GitHub usage lessons #4
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was created for code storage, while Google Docs, etc. were created for storing more general documents.
