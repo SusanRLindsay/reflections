@@ -13,3 +13,7 @@ Branches are good for allowing experimental development without endangering a wo
 Use git checkout -b new_branch_name after checking out prior commit and making changes you want to keep.
 
 How do the diagrams help you visualize the branch structure? They literally diagram the branch structure of git's commits and branches. Head vs master concept.
+
+git show commit# shows the diff between the commit and its parent, even if you don't know which it is due to a prior merge.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? it takes the head of two branches, and compares them to the commit before the lines branched. The merge produces a file that adds any changes that have been maintained from where the commit branched to the heads of the two branches.
