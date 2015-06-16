@@ -4,3 +4,5 @@ it seems as though it is the first steps toward deciding which files to have git
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The working directory encompasses files that may never be moved into the repository. i don't see any particular value right now to having a staging area between the working directory and the repository.
+
+How can you use the staging area to make sure you have one commit per logical change? You can use the staging area to limit the amount of code that you are currently making changes to. This will help limit the scope of each commit.
