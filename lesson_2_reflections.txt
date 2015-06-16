@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+it seems as though it is the first steps toward deciding which files to have git track.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory encompasses files that may never be moved into the repository. i don't see any particular value right now to having a staging area between the working directory and the repository.
