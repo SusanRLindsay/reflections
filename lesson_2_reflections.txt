@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 The working directory encompasses files that may never be moved into the repository. i don't see any particular value right now to having a staging area between the working directory and the repository.
 
 How can you use the staging area to make sure you have one commit per logical change? You can use the staging area to limit the amount of code that you are currently making changes to. This will help limit the scope of each commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are good for allowing experimental development without endangering a working model. Also for allowing parallel development such as converting to a different language.
