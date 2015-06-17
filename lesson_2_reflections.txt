@@ -17,3 +17,11 @@ How do the diagrams help you visualize the branch structure? They literally diag
 git show commit# shows the diff between the commit and its parent, even if you don't know which it is due to a prior merge.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do? it takes the head of two branches, and compares them to the commit before the lines branched. The merge produces a file that adds any changes that have been maintained from where the commit branched to the heads of the two branches.
+
+Conflict resolution during merge: open file, search for head, merged and master. Fix file to your satisfaction, save it. Returning to git bash, run git status, will show both modified. Perform git add <filename>, then git status will show merge in progress, conflicts fixed, but needto commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merges are rapid; manual merge allows full control over what code gets chosen.
+
+After needing to perform merge conflict resolution, make changes to file and save. Then run git status and it should show conflict resolved. Then add file and save commit.
