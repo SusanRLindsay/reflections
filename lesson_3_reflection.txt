@@ -5,3 +5,12 @@ I often work on multiple computers; it would be valuable to be able to store my 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Similar to reasons for not preferring automatic git saves on local repositories: probably wouldn't result in runnable code, allowe user to choose small meaningful increments to store.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A clone is a copy of the repository that is local. It can be a clone of a repository on GitHub or a local clone of a local repository. You would clone from GitHub to begin your own work on a project, etc. probably with plans to push changes back if you have those rights. I'm less sure why you would clone a local repo locally. It seems using master and branch would be more useful.
+
+Master and branch are commit changes to the same repository. Branching is a way to create a different commit path - one that may be abandoned and become unreachable or eventually merged back into the master  branch.
+
+Forking is a way to clone a repository and have changes that are made to it kept separate from the original repository.
