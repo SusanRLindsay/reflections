@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 I often work on multiple computers; it would be valuable to be able to store my work in a central location as it progresses. Also if more than one person is contributing, this would be a useful service.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Similar to reasons for not preferring automatic git saves on local repositories: probably wouldn't result in runnable code, allowe user to choose small meaningful increments to store.
