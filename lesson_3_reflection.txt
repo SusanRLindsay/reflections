@@ -25,3 +25,5 @@ explained what a fast forward merge was.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 There are other CVS sites available such as BitBucket, but their procedures are similar to GitHub, so I am assuming the question refers to doing without any of these. There is a very significant learning curve to using Git and GitHub so using a simpler type of version control would be easier without that. I suspect that recovering from a loss in saved code would be much easier with Git and GitHub.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? Separate branches are useful when trying out features that you aren't certain you want to commit to the main branch, but knowing that you can merge them into the main branch if they prove to be beneficial. Making checnges directly in master is certainly more straightforward and faster.
