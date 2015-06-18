@@ -21,3 +21,7 @@ Could serve as a reminder that you need to commit to bring your repository up to
 Showed how to update your local copy of remote branches, explained that 
 git pull origin master =  git fetch origin + git merge master origin/master
 explained what a fast forward merge was.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+There are other CVS sites available such as BitBucket, but their procedures are similar to GitHub, so I am assuming the question refers to doing without any of these. There is a very significant learning curve to using Git and GitHub so using a simpler type of version control would be easier without that. I suspect that recovering from a loss in saved code would be much easier with Git and GitHub.
